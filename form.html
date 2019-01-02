@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <label for="firstname">First Name:<br>
+                <input type="text" name="firstname" id="firstname" required><br>
+        </label>
+        <label for="lastname">Last Name:<br>
+                <input type="text" name="lastname" id="lastname" required>
+        </label><br><br>
+        Gender <br>
+        <label for="male">
+                <input type="radio" name="gender" value="male" id="male">Male<br>
+        </label>
+        <label for="women">
+            <input type="radio" name="gender" value="women" id="women">Women<br>
+        </label>
+        <label for="none">
+            <input type="radio" name="gender" vaue="none" id="none">None  
+        </label><br><br>
+    
+        <p>Please select the chocolate bars you like.</p>
+        <label for="snickers">
+            <input type="checkbox" name="snickers" value="snickers" id="snickers">Snickers
+        </label>
+        <label for="kitkat">
+            <input type="checkbox" name="kitkat" value="kitkat" id="kitkat">Kitkat
+        </label>
+        <label for="butterfinger">
+            <input type="checkbox" name="butterfinger" value="butterfinger" id="butterfinger">Butterfinger
+        </label>
+        <label for="reeses">
+            <input type="checkbox" name="reeses" value="reeses" id="reeses">Reese's
+        </label>
+        <label for="babyruth">
+            <input type="checkbox" name="babyruth" value="babyruth" id="babyruth">Baby Ruth
+        </label>
+        <label for="3musketeers">
+            <input type="checkbox" name="3musketeers" value="3musketeers" id="3musketeers">3 Musketeers
+        </label> <br><br>
+
+        <p>Please select your favorite chocolate bar!</p>
+        <select name="favorite_bar">
+            <option value="snickers">Snickers</option>
+            <option value="kitkat">KitKat</option>
+            <option value="butterfinger">Butterfinger</option>
+            <option value="reeses">Reese's</option>
+            <option value="babyruth">Baby Ruth</option>
+            <option value="3musketeers">3 Musketeers</option>
+        </select>
+        <br><br><br>
+        <textarea rows="10" cols="50">
+            Why do you love this chocolate bar the most?
+        </textarea>
+        <br><br>
+        <p>Please share your best smile with your favorite chocolate bar!</p>
+        <input type="file" id="yourpic">
+        <br><br>
+        <input type="submit" value="submit"><br>
+
+    </form> 
+   
+</body>
+</html>

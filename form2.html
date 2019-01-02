@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form 2</title>
+    </head>
+    <body>
+
+        <fieldset id="personalinfo">
+            <legend>Personal Info</legend>
+            <label for="firstname"> First Name: 
+                <input type="text" name="firstname" id="firstname" required>
+            </label><br><br>
+            <label for="lastname"> Last Name:
+                <input type="text" name="lastname" id="lastname" required>
+            </label><br><br>
+            <select name="gender"> Gender
+                <option value="select">Choose your gender:</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="noanswer">Prefer not to say</option>
+            </select><br><br>
+            <label for="dob"> Date of Birth:
+                <input type="text" name="dob" id="dob" required>
+            </label><br><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Mailing Address</legend>
+            <label for="street1">Street 1: 
+                <input type="text" name="street1" id="street1" size=50 required>
+            </label> <br><br>
+            <label for="street2">Street 2: 
+                <input type="text" name="street1" id="street2" size=50>
+            </label><br><br>
+            <label for="city">City:
+                <input type="text" name="city" id="city" size=30 required>
+            </label><br><br>
+            <label for="state">State:
+                <input type="text" name="state" id="state" required>
+            </label>
+            <label for="zipcode">Zipcode:
+                <input type="text" name="zipcode" id="zipcode" required>
+            </label>
+        </fieldset><br>
+        <input type="submit" value="submit">
+    </body>
+</html>
